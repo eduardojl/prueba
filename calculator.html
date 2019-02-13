@@ -8,6 +8,8 @@
 				var num = document.getElementById("n1");
 				num.value =  1/num.value;
 			}
+			var num = document.getElementById("n1");
+			num.value =  num.value * num.value;
 		</script>
 	</head>
 	<body>
@@ -16,5 +18,8 @@
 			<input type="text" id="n1" onclick="empty()" />
 		</p>
 		<button onclick="text();">1/x</button>
+			<input type="text" id="n1" />
+		</p>
+		<button onclick="square();">x<sup>2</sup></button>
 	</body>
 </html>
